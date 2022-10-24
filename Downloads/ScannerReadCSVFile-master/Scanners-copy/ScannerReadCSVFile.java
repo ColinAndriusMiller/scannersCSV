@@ -46,9 +46,17 @@ public class ScannerReadCSVFile
             // Pay attention to the spacing on your output
             //
             // Write your code in the space below!
-            
-            
-            
+            Scanner s2 = new Scanner(line);
+            s2.useDelimiter(",");
+            while (s2.hasNext()){
+                String[] str1 = new String[10];
+                int i = 0;
+                if (1 <= 10) {
+                    str1[i] = s2.next();
+                    System.out.println(str1);
+                    i++;
+                }
+            }
             
         }
     }
